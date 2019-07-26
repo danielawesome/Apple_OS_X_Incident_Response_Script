@@ -29,10 +29,13 @@ Instructions
 
    sudo python.exe apple.py <username> <directory location>
 
-   For example, $ sudo python.exe apple.py jdoe .				
+   
+   For example, $ sudo python.exe apple.py jdoe .	
+   
    This will collect IR data for username JDoe and save the results to your current working directory 
    
    Another one,  $ sudo python.exe apple.py jdoe /Volume/USB	  	
+   
    This will collect IR data for username JDoe and save the results to an external USB Device
 
 
