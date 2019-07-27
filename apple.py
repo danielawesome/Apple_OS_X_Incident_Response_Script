@@ -216,11 +216,10 @@ def browserData():
     print "|-- Last Accessed --|-- URL--|-- URL Name --|-- Path --|-- Value --|-- Expires --|"
     run("""sqlite3 /Users/""" + user + """/Library/Application\ Support/Google/Chrome/Default/Cookies h""")
 
-'''
     print "\n****** Google Chrome Forms ******\n"
     print "|-- Last Used --|-- Name--|-- Value --|-- Date Created --|"
     run("""sqlite3 /Users/""" + user + """/Library/Application\ Support/Google/Chrome/Default/Web\ Data 'SELECT  datetime( autofill.date_last_used, "unixepoch", "localtime"), name, value,  datetime( autofill.date_created, "unixepoch", "localtime") FROM autofill ORDER BY date_last_used asc;'""")
-'''
+
     
 def appsAndKext():
     print "\n******** Installed Apps *********\n"
