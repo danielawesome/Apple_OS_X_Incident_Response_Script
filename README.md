@@ -62,4 +62,4 @@ To Do List:
 
 	•	Add Safari Browser History results
 	•	Add Safari Form Values. Helpful for phishing incidents where the user still has Safari set as their default browser. We can usually confirm a user entered their credentials during a phishing incident by looking here
-	•	Add Chrome Web Data support. Similar to what we get from Safari’s Form Values 
+	
